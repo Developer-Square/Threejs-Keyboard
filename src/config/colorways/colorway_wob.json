@@ -1,0 +1,20 @@
+{
+  "id": "wob",
+  "label": "White on Black",
+  "manufacturer": "",
+  "swatches": {
+    "base": {
+      "background": "#212121",
+      "color": "#EAE9EE"
+    },
+    "mods": {
+      "background": "#212121",
+      "color": "#EAE9EE"
+    },
+    "accent": {
+      "background": "#212121",
+      "color": "#EAE9EE"
+    }
+  },
+  "override": {}
+}

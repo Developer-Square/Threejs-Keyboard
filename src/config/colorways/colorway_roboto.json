@@ -1,0 +1,66 @@
+{
+  "id": "roboto",
+  "label": "Roboto",
+  "manufacturer": "gmk, sa",
+  "designer": "",
+  "swatches": {
+    "base": {
+      "background": "#737278",
+      "subColor": "#F5D47A",
+      "color": "#F5D47A"
+    },
+    "mods": {
+      "background": "#474747",
+      "subColor": "#58D3FE",
+      "color": "#58D3FE"
+    },
+    "accent": {
+      "background": "#474747",
+      "subColor": "#737278",
+      "color": "#737278"
+    },
+    "accent2": {
+      "background": "#474747",
+      "subColor": "#F08A41",
+      "color": "#F08A41"
+    },
+    "accent3": {
+      "background": "#474747",
+      "subColor": "#6B50AB",
+      "color": "#6B50AB"
+    },
+    "accent4": {
+      "background": "#474747",
+      "subColor": "#F5D47A",
+      "color": "#F5D47A"
+    },
+    "accent5": {
+      "background": "#474747",
+      "subColor": "#FFCFDA",
+      "color": "#FFCFDA"
+    }
+  },
+  "override": {
+    "KC_ESC": "accent",
+    "KC_GESC": "accent",
+
+    "KC_TAB": "accent2",
+    "KC_BSPC": "accent2",
+
+    "KC_ENT": "accent3",
+    "KC_CAPS": "accent3",
+
+    "KC_LSFT": "accent4",
+    "KC_RSFT": "accent4",
+
+    "KC_LCTL": "accent5",
+    "KC_RCTL": "accent5",
+    "KC_RALT": "accent5",
+    "KC_LALT": "accent5",
+    "KC_LGUI": "accent5",
+    "KC_RGUI": "accent5",
+    "KC_MO(1)": "accent5",
+    "KC_MO(2)": "accent5",
+    "KC_MO(3)": "accent5"
+  }
+}

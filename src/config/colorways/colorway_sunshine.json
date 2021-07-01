@@ -1,0 +1,29 @@
+{
+  "id": "sunshine",
+  "label": "Sunshine",
+  "manufacturer": "",
+  "swatches": {
+    "base": {
+      "background": "#F5D47A",
+      "color": "#212121"
+    },
+    "mods": {
+      "background": "#F08A41",
+      "color": "#212121"
+    },
+    "accent": {
+      "background": "#69DDD8",
+      "color": "#212121"
+    },
+    "accent2": {
+      "background": "#69DDD8",
+      "color": "#212121"
+    }
+  },
+  "override": {
+    "KC_ENT": "accent2",
+    "KC_ESC": "accent",
+    "KC_SPC": "accent",
+    "KC_GESC": "accent"
+  }
+}

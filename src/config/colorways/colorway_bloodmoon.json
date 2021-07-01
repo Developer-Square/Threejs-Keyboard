@@ -1,0 +1,24 @@
+{
+  "id": "bloodmoon",
+  "label": "Bloodmoon",
+  "manufacturer": "",
+  "swatches": {
+    "base": {
+      "background": "#EAE9EE",
+      "color": "#AB0909"
+    },
+    "mods": {
+      "background": "#AB0909",
+      "color": "#EAE9EE"
+    },
+    "accent": {
+      "background": "#AB0909",
+      "color": "#EAE9EE"
+    }
+  },
+  "override": {
+    "KC_ENT": "accent",
+    "KC_ESC": "accent",
+    "KC_GESC": "accent"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "sakura",
+  "label": "Sakura",
+  "manufacturer": "",
+  "swatches": {
+    "base": {
+      "background": "#FFCFDA",
+      "subColor": "#212121",
+      "color": "#212121"
+    },
+    "mods": {
+      "background": "#212121",
+      "color": "#FFCFDA"
+    },
+    "accent": {
+      "background": "#EAE9EE",
+      "color": "#212121"
+    }
+  },
+  "override": {
+    "KC_ENT": "accent",
+    "KC_ESC": "accent",
+    "KC_GESC": "accent"
+  }
+}

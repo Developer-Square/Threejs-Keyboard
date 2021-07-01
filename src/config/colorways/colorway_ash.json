@@ -1,0 +1,24 @@
+{
+  "id": "ash",
+  "label": "Ash",
+  "manufacturer": "",
+  "swatches": {
+    "base": {
+      "background": "#737278",
+      "color": "#EAE9EE"
+    },
+    "mods": {
+      "background": "#EAE9EE",
+      "color": "#737278"
+    },
+    "accent": {
+      "background": "#212121",
+      "color": "#EAE9EE"
+    }
+  },
+  "override": {
+    "KC_ENT": "accent",
+    "KC_ESC": "accent",
+    "KC_GESC": "accent"
+  }
+}

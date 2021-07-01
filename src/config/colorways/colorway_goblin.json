@@ -1,0 +1,25 @@
+{
+  "id": "goblin",
+  "label": "Goblin",
+  "manufacturer": "",
+  "designer": "",
+  "swatches": {
+    "base": {
+      "background": "#737278",
+      "color": "#EAE9EE"
+    },
+    "mods": {
+      "background": "#212121",
+      "color": "#B0CD6F"
+    },
+    "accent": {
+      "background": "#B0CD6F",
+      "color": "#212121"
+    }
+  },
+  "override": {
+    "KC_ENT": "accent",
+    "KC_ESC": "accent",
+    "KC_GESC": "accent"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "tropical_dream",
+  "label": "Tropical Dream",
+  "manufacturer": "sa",
+  "designer": "",
+  "swatches": {
+    "base": {
+      "background": "#69DDD8",
+      "color": "#EAE9EE"
+    },
+    "mods": {
+      "background": "#69DDD8",
+      "color": "#EAE9EE"
+    },
+    "accent": {
+      "background": "#F7729A",
+      "color": "#EAE9EE"
+    },
+    "accent2": {
+      "background": "#FFCFDA",
+      "color": "#EAE9EE"
+    },
+    "accent3": {
+      "background": "#F08A41",
+      "color": "#EAE9EE"
+    }
+  },
+  "override": {
+    "KC_C": "accent",
+    "KC_F": "accent",
+    "KC_T": "accent",
+    "KC_6": "accent",
+    "KC_F5": "accent",
+
+    "KC_X": "accent2",
+    "KC_D": "accent2",
+    "KC_R": "accent2",
+    "KC_Z": "accent2",
+    "KC_S": "accent2",
+    "KC_E": "accent2",
+    "KC_5": "accent2",
+    "KC_4": "accent2",
+    "KC_F4": "accent2",
+    "KC_LGUI": "accent2",
+    "KC_LALT": "accent2",
+
+    "KC_LCTL": "accent3",
+    "KC_ESC": "accent3",
+    "KC_LSFT": "accent3",
+    "KC_TAB": "accent3",
+    "KC_CAPS": "accent3",
+    "KC_Q": "accent3",
+    "KC_A": "accent3",
+    "KC_W": "accent3",
+    "KC_1": "accent3",
+    "KC_2": "accent3",
+    "KC_3": "accent3",
+    "KC_F1": "accent3",
+    "KC_F2": "accent3",
+    "KC_F3": "accent3",
+    "KC_GRV": "accent3",
+    "KC_NUBS": "accent3",
+
+    "KC_GESC": "accent3"
+  }
+}
