@@ -23,26 +23,18 @@ const getInitialState = () => {
   let saved_colorways = loadState();
   let initial = settings;
   if (saved_colorways) {
-  // Make changes to the initial JSON in the recommended format.
-  initial = {
-    ...initial,
-    colorways: {
-      ...initial.colorways,
-      custom: saved_colorways.settings
-    } 
-  }
-    // initial.colorways.custom = saved_colorways.settings;
+    initial.colorways.custom = saved_colorways.settings;
   }
 
   //set random initial values
-  if (!qs) {
-    // initial.colorways.active = randomItem(starting_colorway_options);
-    // initial.case.layout = randomItem(starting_layout_options);
-    // initial.keys.legendSecondaryStyle = randomItem([
-    //   randomItem(subOptions),
-    //   "",
-    // ]);
-  }
+  // if (!qs) {
+  // initial.colorways.active = randomItem(starting_colorway_options);
+  // initial.case.layout = randomItem(starting_layout_options);
+  // initial.keys.legendSecondaryStyle = randomItem([
+  //   randomItem(subOptions),
+  //   "",
+  // ]);
+  // }
 
   if (saved_colorways && saved_colorways.active) {
     initial.colorways.active = saved_colorways.active;
@@ -60,6 +52,7 @@ const getInitialState = () => {
       if (!initial.colorways.custom.find((x) => x.id === qs["colorway"].id)) {
         initial.colorways.custom.push(qs["colorway"]);
       }
+
       initial.colorways.active = qs["colorway"].id;
     } else {
       initial.colorways.active = qs["colorway"];
@@ -76,6 +69,13 @@ const getInitialState = () => {
     initial.case.autoColor = false;
   }
   if (qs && qs["cf"]) {
+    initial = {
+      ...initial,
+      case: {
+        ...initial.case,
+        material: qs["cf"],
+      },
+    };
     initial.case.material = qs["cf"];
   }
 
@@ -86,16 +86,7 @@ const getInitialState = () => {
     accent =
       COLORWAYS[initial?.colorways?.active]?.swatches?.accent?.background;
   }
-  // Make changes to the initial JSON in the recommended format.
-  initial = {
-    ...initial,
-    settings: {
-      ...initial.settings,
-      sceneColor: accent
-    } 
-  }
-
-  // initial.settings.sceneColor = accent;
+  initial.settings.sceneColor = accent;
   return initial;
 };
 

@@ -5,6 +5,7 @@ const qs = require("query-string");
 export const get_qs_values = () => {
   if (!document.location.search) return;
   const parsed = qs.parse(document.location.search);
+  console.log(parsed);
   if (parsed.colorway && parsed.colorway.includes("cw_")) {
     parsed.colorway = decodeColorway(parsed.colorway);
   }
