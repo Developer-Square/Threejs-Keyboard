@@ -5,7 +5,6 @@ import OptionsPane from "./OptionsPane";
 import styles from "./Sidebar.module.scss";
 import ColorwayEditor from "../colorway/ColorwayEditor";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
-import { ReactComponent as Name } from "../../assets/logo_text.svg";
 import "./tabs.scss";
 
 export default function Sidebar() {

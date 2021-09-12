@@ -1,18 +1,7 @@
 import { get_qs_values } from "./qs";
 import { loadState } from "./localStorage";
-import { subOptions } from "../config/legends/subs/subs";
 import COLORWAYS from "../config/colorways/colorways";
 import settings from "../config/settings_user_default.json";
-
-const starting_colorway_options = [
-  "ash",
-  "bloodmoon",
-  "goblin",
-  "roboto",
-  "bubblegum",
-];
-
-const starting_layout_options = ["60"];
 
 // let randomItem = (arr) => {
 //   return arr[Math.floor(Math.random() * arr.length)];

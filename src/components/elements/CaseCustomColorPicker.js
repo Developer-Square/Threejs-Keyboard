@@ -1,11 +1,9 @@
 import React, { useRef, useEffect } from "react";
 import { CustomPicker } from "react-color";
-import { EditableInput } from "react-color/lib/components/common";
-import { Hue, Saturation } from "react-color/lib/components/common";
 import colorCodes from "../../config/colors/case";
 import pickerStyes from "./ColorPicker.module.scss";
 
-export const MyPicker = ({ hex, hsl, hsv, onChange, onClose }) => {
+export const MyPicker = ({ hex, onChange, onClose }) => {
   const node = useRef();
   const styles = {
     hue: {
@@ -49,6 +47,7 @@ export const MyPicker = ({ hex, hsl, hsv, onChange, onClose }) => {
     //   if (node.current) node.current.querySelector("input").focus();
     // }, 500);
     return onClose;
+    // eslint-disable-next-line
   }, []);
 
   const swatches = Object.keys(colorCodes).map((code) => {
