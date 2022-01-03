@@ -1,5 +1,7 @@
 # KeySim
 
+A keyboard simulator that can help you improve your typing speed and accuracy, it's multilingual so you can try it from anywhere in the world.
+
 https://keyboardsimulator.xyz/
 
 design and test virtual 3d keyboards.
